@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
-  spec.name             = 'WeScan'
-  spec.version          = '1.1.0'
+  spec.name             = 'WeScanCustom'
+  spec.version          = '1.2.1'
   spec.summary          = 'Document Scanning Made Easy for iOS'
   spec.description      = 'WeScan makes it easy to add scanning functionalities to your iOS app! It\'s modelled after UIImagePickerController, which makes it a breeze to use.'
 
@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
     'Boris Emorine' => 'boris@wetransfer.com',
     'Antoine van der Lee' => 'antoine@wetransfer.com'
   }
-  spec.source           = { :git => 'https://github.com/WeTransfer/WeScan.git', :tag => "v#{spec.version}" }
+  spec.source           = { :git => 'https://github.com/RostykStakhiv/WeScan.git', :tag => "v#{spec.version}" }
   spec.social_media_url = 'https://twitter.com/WeTransfer'
 
   spec.swift_version = '5.0'
